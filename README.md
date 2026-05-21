@@ -33,10 +33,6 @@ The purpose of this project is to solve real-world problems using programming co
 
 ---
 
-
-
----
-
 # ⚙️ Features
 
 - ESP-32 Based Security Feature
@@ -56,6 +52,16 @@ Through this project we learned:
 - Problem solving
 - Programming skills
 - Version control system
+
+# 🔐 Default Password
+
+The default system password is:
+
+```text
+Fada4fff
+```
+
+Users can modify the password directly from the source code if needed.
 
 ---
 
