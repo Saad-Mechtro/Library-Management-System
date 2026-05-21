@@ -1,0 +1,108 @@
+BookID,Title,Author,Genre,TotalCopies,AvailableCopies,IssuedTo,IssueDate,DueDate
+BK_001,The Alchemist,Paulo Coelho,Fiction,3,3,NULL,NULL,NULL
+BK_002,To Kill a Mockingbird,Harper Lee,Classic,3,2,STD_023,2025-04-10,2025-04-24
+BK_003,1984,George Orwell,Dystopian,3,2,STD_024,2025-04-20,2025-05-04
+BK_004,Pride and Prejudice,Jane Austen,Romance,4,2,STD_008,2025-04-20,2025-05-04
+BK_005,The Great Gatsby,F. Scott Fitzgerald,Classic,3,1,STD_123,2728-90-09,267-09-89
+BK_006,Harry Potter and the Sorcerer's Stone,J.K. Rowling,Fantasy,2,2,NULL,NULL,NULL
+BK_007,The Hobbit,J.R.R. Tolkien,Fantasy,3,3,NULL,NULL,NULL
+BK_008,Brave New World,Aldous Huxley,Dystopian,4,4,NULL,NULL,NULL
+BK_009,The Catcher in the Rye,J.D. Salinger,Classic,3,1,STD_007,2025-03-15,2025-03-29
+BK_010,Lord of the Flies,William Golding,Classic,2,1,STD_003,2025-04-01,2025-04-15
+BK_011,Animal Farm,George Orwell,Satire,2,1,STD_027,2025-03-15,2025-03-29
+BK_012,The Da Vinci Code,Dan Brown,Thriller,4,2,STD_015,2025-04-10,2025-04-24
+BK_013,Gone Girl,Gillian Flynn,Thriller,4,3,STD_026,2025-04-20,2025-05-04
+BK_014,The Hunger Games,Suzanne Collins,Sci-Fi,4,3,STD_005,2025-04-20,2025-05-04
+BK_015,Divergent,Veronica Roth,Sci-Fi,2,1,STD_005,2025-04-20,2025-05-04
+BK_016,The Maze Runner,James Dashner,Sci-Fi,3,1,STD_001,2025-05-01,2025-05-15
+BK_017,Fahrenheit 451,Ray Bradbury,Dystopian,4,3,STD_013,2025-03-10,2025-03-24
+BK_018,Of Mice and Men,John Steinbeck,Classic,2,1,STD_011,2025-04-01,2025-04-15
+BK_019,The Grapes of Wrath,John Steinbeck,Classic,3,2,STD_008,2025-03-15,2025-03-29
+BK_020,Moby Dick,Herman Melville,Adventure,4,3,STD_001,2025-03-15,2025-03-29
+BK_021,War and Peace,Leo Tolstoy,Historical,4,4,NULL,NULL,NULL
+BK_022,Crime and Punishment,Fyodor Dostoevsky,Classic,4,3,STD_023,2025-03-15,2025-03-29
+BK_023,The Brothers Karamazov,Fyodor Dostoevsky,Classic,2,2,NULL,NULL,NULL
+BK_024,Don Quixote,Miguel de Cervantes,Classic,3,2,STD_006,2025-04-20,2025-05-04
+BK_025,Hamlet,William Shakespeare,Drama,3,3,NULL,NULL,NULL
+BK_026,Macbeth,William Shakespeare,Drama,3,3,NULL,NULL,NULL
+BK_027,Romeo and Juliet,William Shakespeare,Drama,4,3,STD_011,2025-04-20,2025-05-04
+BK_028,Othello,William Shakespeare,Drama,2,2,NULL,NULL,NULL
+BK_029,The Odyssey,Homer,Epic,3,3,NULL,NULL,NULL
+BK_030,The Iliad,Homer,Epic,3,2,STD_024,2025-04-10,2025-04-24
+BK_031,A Tale of Two Cities,Charles Dickens,Historical,2,1,STD_021,2025-03-10,2025-03-24
+BK_032,Oliver Twist,Charles Dickens,Classic,2,1,STD_014,2025-03-15,2025-03-29
+BK_033,Great Expectations,Charles Dickens,Classic,4,2,STD_001,2025-04-10,2025-04-24
+BK_034,Jane Eyre,Charlotte Bronte,Romance,4,3,STD_024,2025-04-10,2025-04-24
+BK_035,Wuthering Heights,Emily Bronte,Romance,2,2,NULL,NULL,NULL
+BK_036,Frankenstein,Mary Shelley,Horror,3,1,STD_015,2025-04-20,2025-05-04
+BK_037,Dracula,Bram Stoker,Horror,4,2,STD_021,2025-04-01,2025-04-15
+BK_038,The Picture of Dorian Gray,Oscar Wilde,Classic,3,1,STD_023,2025-04-20,2025-05-04
+BK_039,Les Miserables,Victor Hugo,Historical,2,0,STD_020,2025-04-20,2025-05-04
+BK_040,The Count of Monte Cristo,Alexandre Dumas,Adventure,4,3,STD_019,2025-03-10,2025-03-24
+BK_041,Three Musketeers,Alexandre Dumas,Adventure,3,1,STD_011,2025-03-10,2025-03-24
+BK_042,Around the World in 80 Days,Jules Verne,Adventure,2,0,STD_024,2025-04-10,2025-04-24
+BK_043,20000 Leagues Under the Sea,Jules Verne,Adventure,3,2,STD_008,2025-04-01,2025-04-15
+BK_044,Sherlock Holmes,Arthur Conan Doyle,Mystery,2,2,NULL,NULL,NULL
+BK_045,And Then There Were None,Agatha Christie,Mystery,4,4,NULL,NULL,NULL
+BK_046,Murder on the Orient Express,Agatha Christie,Mystery,3,2,STD_007,2025-03-10,2025-03-24
+BK_047,The Girl with the Dragon Tattoo,Stieg Larsson,Thriller,3,3,NULL,NULL,NULL
+BK_048,The Shining,Stephen King,Horror,2,1,STD_029,2025-04-01,2025-04-15
+BK_049,It,Stephen King,Horror,3,1,STD_026,2025-05-01,2025-05-15
+BK_050,Dune,Frank Herbert,Sci-Fi,2,1,STD_023,2025-03-15,2025-03-29
+BK_051,Foundation,Isaac Asimov,Sci-Fi,4,3,STD_010,2025-04-10,2025-04-24
+BK_052,I Robot,Isaac Asimov,Sci-Fi,4,3,STD_024,2025-03-15,2025-03-29
+BK_053,Ender's Game,Orson Scott Card,Sci-Fi,4,3,STD_006,2025-03-15,2025-03-29
+BK_054,The Hitchhiker's Guide to the Galaxy,Douglas Adams,Sci-Fi,3,2,STD_005,2025-04-01,2025-04-15
+BK_055,Slaughterhouse Five,Kurt Vonnegut,Sci-Fi,3,1,STD_002,2025-03-15,2025-03-29
+BK_056,Catch 22,Joseph Heller,Satire,3,3,NULL,NULL,NULL
+BK_057,The Old Man and the Sea,Ernest Hemingway,Classic,4,2,STD_009,2025-03-15,2025-03-29
+BK_058,A Farewell to Arms,Ernest Hemingway,Classic,2,1,STD_009,2025-03-15,2025-03-29
+BK_059,For Whom the Bell Tolls,Ernest Hemingway,Classic,3,2,STD_021,2025-03-15,2025-03-29
+BK_060,The Sun Also Rises,Ernest Hemingway,Classic,2,0,STD_014,2025-04-01,2025-04-15
+BK_061,Lolita,Vladimir Nabokov,Classic,4,4,NULL,NULL,NULL
+BK_062,One Hundred Years of Solitude,Gabriel Garcia Marquez,Magic Realism,3,3,NULL,NULL,NULL
+BK_063,Love in the Time of Cholera,Gabriel Garcia Marquez,Romance,3,3,NULL,NULL,NULL
+BK_064,The House of the Spirits,Isabel Allende,Magic Realism,2,0,STD_011,2025-03-10,2025-03-24
+BK_065,Midnight's Children,Salman Rushdie,Historical,4,3,STD_001,2025-04-10,2025-04-24
+BK_066,The Kite Runner,Khaled Hosseini,Drama,3,2,STD_013,2025-03-10,2025-03-24
+BK_067,A Thousand Splendid Suns,Khaled Hosseini,Drama,3,2,STD_025,2025-04-10,2025-04-24
+BK_068,The Book Thief,Markus Zusak,Historical,3,1,STD_006,2025-03-15,2025-03-29
+BK_069,Life of Pi,Yann Martel,Adventure,2,1,STD_010,2025-04-01,2025-04-15
+BK_070,The Road,Cormac McCarthy,Dystopian,2,1,STD_012,2025-05-01,2025-05-15
+BK_071,No Country for Old Men,Cormac McCarthy,Thriller,3,2,STD_005,2025-05-01,2025-05-15
+BK_072,Blood Meridian,Cormac McCarthy,Historical,3,3,NULL,NULL,NULL
+BK_073,Beloved,Toni Morrison,Historical,3,1,STD_001,2025-03-15,2025-03-29
+BK_074,The Color Purple,Alice Walker,Drama,4,2,STD_011,2025-05-01,2025-05-15
+BK_075,Their Eyes Were Watching God,Zora Neale Hurston,Classic,2,1,STD_028,2025-04-01,2025-04-15
+BK_076,Invisible Man,Ralph Ellison,Classic,2,1,STD_024,2025-03-15,2025-03-29
+BK_077,The Bell Jar,Sylvia Plath,Classic,2,2,NULL,NULL,NULL
+BK_078,Mrs Dalloway,Virginia Woolf,Classic,2,1,STD_016,2025-04-01,2025-04-15
+BK_079,To the Lighthouse,Virginia Woolf,Classic,4,2,STD_024,2025-03-15,2025-03-29
+BK_080,Ulysses,James Joyce,Classic,2,1,STD_003,2025-04-20,2025-05-04
+BK_081,A Portrait of the Artist as a Young Man,James Joyce,Classic,2,1,STD_015,2025-03-10,2025-03-24
+BK_082,The Trial,Franz Kafka,Classic,3,2,STD_003,2025-03-10,2025-03-24
+BK_083,The Metamorphosis,Franz Kafka,Classic,2,1,STD_014,2025-03-15,2025-03-29
+BK_084,Siddhartha,Hermann Hesse,Philosophy,2,1,STD_011,2025-04-01,2025-04-15
+BK_085,Steppenwolf,Hermann Hesse,Philosophy,4,3,STD_025,2025-03-15,2025-03-29
+BK_086,The Name of the Rose,Umberto Eco,Mystery,3,1,STD_027,2025-04-10,2025-04-24
+BK_087,Perfume,Patrick Suskind,Historical,4,3,STD_025,2025-03-10,2025-03-24
+BK_088,The Little Prince,Antoine de Saint-Exupery,Fiction,2,1,STD_011,2025-03-15,2025-03-29
+BK_089,Flowers for Algernon,Daniel Keyes,Sci-Fi,4,3,STD_005,2025-03-15,2025-03-29
+BK_090,The Giver,Lois Lowry,Dystopian,3,3,NULL,NULL,NULL
+BK_091,Number the Stars,Lois Lowry,Historical,4,3,STD_014,2025-03-10,2025-03-24
+BK_092,Holes,Louis Sachar,Fiction,4,3,STD_005,2025-03-15,2025-03-29
+BK_093,Charlotte's Web,E.B. White,Children,4,2,STD_023,2025-04-01,2025-04-15
+BK_094,The Chronicles of Narnia,C.S. Lewis,Fantasy,3,1,STD_026,2025-03-10,2025-03-24
+BK_095,A Wrinkle in Time,Madeleine L'Engle,Sci-Fi,2,0,STD_018,2025-04-01,2025-04-15
+BK_096,Watership Down,Richard Adams,Adventure,4,3,STD_009,2025-04-10,2025-04-24
+BK_097,Jonathan Livingston Seagull,Richard Bach,Philosophy,2,1,STD_002,2025-04-20,2025-05-04
+BK_098,The Prophet,Kahlil Gibran,Philosophy,3,1,STD_027,2025-03-15,2025-03-29
+BK_099,Think and Grow Rich,Napoleon Hill,Self-Help,2,1,STD_021,2025-03-10,2025-03-24
+BK_100,How to Win Friends,Dale Carnegie,Self-Help,2,2,NULL,NULL,NULL
+BK_101,Rich Dad Poor Dad,Robert Kiyosaki,Self-Help,4,3,STD_002,2025-03-10,2025-03-24
+BK_102,Atomic Habits,James Clear,Self-Help,2,2,NULL,NULL,NULL
+BK_103,Sapiens,Yuval Noah Harari,Non-Fiction,4,4,NULL,NULL,NULL
+BK_104,Homo Deus,Yuval Noah Harari,Non-Fiction,3,2,STD_026,2025-03-10,2025-03-24
+BK_105,A Brief History of Time,Stephen Hawking,Science,4,4,NULL,NULL,NULL
+BK_106,The Selfish Gene,Richard Dawkins,Science,3,2,STD_029,2025-04-10,2025-04-24
+BK_2000,SEALED NECTAR,PROFESSOR,HISTORY,3,3,NULL,NULL,NULL
