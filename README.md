@@ -8,7 +8,7 @@ The purpose of this project is to solve real-world problems using programming co
 
 # 👨‍💻 Group Members
 
-| Name | Roll Number | GitHub |
+| Name | GitHub |
 |------|-------------|--------|
 | Hafiz Muhammad Saad Habib | Saad-Mechtro
 | Ahmad Hassan | ahmedmechtro-afk
