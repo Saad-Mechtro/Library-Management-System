@@ -406,6 +406,120 @@ Through this project, the following concepts were practically implemented:
 * Debugging and Testing
 
 ---
+## Installation and Usage
+
+### Requirements
+
+* Windows Operating System
+* C++ Compiler (Dev-C++, Code::Blocks, Visual Studio, or MinGW)
+* ESP32 Development Board
+* USB Data Cable
+
+---
+
+### Setup Instructions
+
+1. Clone or download the repository.
+
+```bash
+git clone https://github.com/your-repository-link.git
+```
+
+2. Open the project in your preferred C++ IDE.
+
+3. Ensure that the CSV database file (`library02.csv`) is present in the same directory as the executable.
+
+4. Connect the ESP32 device to your computer.
+
+5. Verify the correct COM port in the source code:
+
+```cpp
+CreateFile("\\\\.\\COM3", ...)
+```
+
+If your ESP32 is connected to a different COM port, update the port number accordingly.
+
+6. Compile and run the project.
+
+---
+
+### Authentication
+
+The system uses ESP32-based hardware authentication.
+
+When the application starts:
+
+1. The software sends an authentication request to the ESP32.
+2. The ESP32 responds with a predefined security key.
+3. The application verifies the received key.
+4. Access is granted only if the key matches.
+
+Default Authentication Key:
+
+```text
+Fada4fff
+```
+
+> Note: This key is included for demonstration and academic purposes. In a production environment, authentication credentials should be stored securely and not exposed in source code.
+
+---
+
+### Using the System
+
+After successful authentication, the following menu will appear:
+
+```text
+1. Search a Book by ID
+2. Add a New Book
+3. Issue a Book to Student
+4. Return a Book
+5. Delete a Book
+0. Exit
+```
+
+#### Search a Book
+
+* Select option `1`
+* Enter the Book ID
+* The system displays complete book information
+
+#### Add a New Book
+
+* Select option `2`
+* Enter Book ID, Title, Author, Genre, and Total Copies
+* The record will be saved to the database
+
+#### Issue a Book
+
+* Select option `3`
+* Enter Book ID
+* Enter Student ID
+* Enter Due Date and Issue Date
+* Available copies will be updated automatically
+
+#### Return a Book
+
+* Select option `4`
+* Enter the Book ID
+* The system restores available copies and clears issue information
+
+#### Delete a Book
+
+* Select option `5`
+* Enter the Book ID
+* The selected record will be permanently removed
+
+---
+
+### Sample Login Flow
+
+```text
+Checking ESP32 security device...
+Authentication Key Verified.
+Access Granted. Welcome!
+```
+
+The user can then access all library management features.
 
 ## Contributors
 
